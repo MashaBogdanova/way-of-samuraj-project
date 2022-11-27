@@ -34,7 +34,9 @@ const Dialogs: FC = () => {
 
             <div className={commonStyles.whiteBlock}>
                 <div className={style.messages} ref={messagesRef}>
-                    {dialogs.messages.map(m => <MyMessage key={m.id} text={m.message} id={m.id}
+                    {dialogs.messages.map(m => <MyMessage key={m.id}
+                                                          text={m.message}
+                                                          id={m.id}
                                                           deleteText={deleteMessageText}/>)}
                 </div>
             </div>

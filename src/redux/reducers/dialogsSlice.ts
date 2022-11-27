@@ -12,9 +12,9 @@ const initialState: initialStateType = {
         {id: 2, name: "efremos", lastMessage: '"message"'}
     ],
     messages: [
-        {id: 1, message: "message"},
-        {id: 2, message: "message"},
-        {id: 3, message: "message"}
+        {id: 1, message: "I'm not a real message from the server"},
+        {id: 2, message: "I'm just an imitation"},
+        {id: 3, message: "That's why I won't change"}
     ]
 }
 

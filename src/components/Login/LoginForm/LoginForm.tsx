@@ -65,7 +65,7 @@ export const LoginForm: FC = () => {
         </div>
 
         <div className={style.buttons}>
-            <MyPrimaryButton type="submit">Send</MyPrimaryButton>
+            <MyPrimaryButton type="submit">Sign in</MyPrimaryButton>
             <MySecondaryButton type="reset">Reset</MySecondaryButton>
         </div>
 

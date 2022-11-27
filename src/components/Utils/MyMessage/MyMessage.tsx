@@ -2,6 +2,7 @@ import React, {FC, useState} from "react"
 import {HeartOutlined, LikeOutlined} from "@ant-design/icons"
 import {Avatar, Comment, Tooltip} from "antd"
 import style from "./MyMessage.module.css"
+import {useLocation, useParams} from "react-router-dom";
 
 type propsType = {
     text: string
@@ -13,6 +14,7 @@ const Posts: FC<propsType> = ({text, deleteText, id}) => {
 
     const [likes, setLikes] = useState(0)
     const [hearts, setHearts] = useState(0)
+    const dialog = useLocation().pathname
 
     const onTextDelete = () => {
         deleteText(id)
@@ -21,8 +23,8 @@ const Posts: FC<propsType> = ({text, deleteText, id}) => {
     return (
         <div className={style.message}>
             <Comment
-                author={<a>Han Solo</a>}
-                avatar={<Avatar src="https://joeschmoe.io/api/v1/random" alt="Han Solo" />}
+                author={dialog === "/dialogs/1" ? <a>Han Solo</a> : <a>efremos</a>}
+                avatar={<Avatar src="https://joeschmoe.io/api/v1/random" alt="User's avatar" />}
                 content={<p>{text}</p>}
                 datetime={
                     <Tooltip title="2016-11-22 11:22:33">
