@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/way-of-samuraj-project/static/css/main.652ee7b4.css",
+    "main.js": "/way-of-samuraj-project/static/js/main.1d3aa968.js",
+    "static/css/361.d64955ec.chunk.css": "/way-of-samuraj-project/static/css/361.d64955ec.chunk.css",
+    "static/js/361.8685e589.chunk.js": "/way-of-samuraj-project/static/js/361.8685e589.chunk.js",
+    "static/media/logo.png": "/way-of-samuraj-project/static/media/logo.e798c61d3e070123ba3c.png",
+    "static/media/userAvatar.jpeg": "/way-of-samuraj-project/static/media/userAvatar.692368f8f233fa297b78.jpeg",
+    "static/media/yellowPreloader.svg": "/way-of-samuraj-project/static/media/yellowPreloader.25a9d71b9a75b8a5e183ee2ab715a399.svg",
+    "static/media/vk-icon.svg": "/way-of-samuraj-project/static/media/vk-icon.ffd1a6c876aff0b5ec525e8ce9f782c5.svg",
+    "index.html": "/way-of-samuraj-project/index.html",
+    "main.652ee7b4.css.map": "/way-of-samuraj-project/static/css/main.652ee7b4.css.map",
+    "main.1d3aa968.js.map": "/way-of-samuraj-project/static/js/main.1d3aa968.js.map",
+    "361.d64955ec.chunk.css.map": "/way-of-samuraj-project/static/css/361.d64955ec.chunk.css.map",
+    "361.8685e589.chunk.js.map": "/way-of-samuraj-project/static/js/361.8685e589.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.652ee7b4.css",
+    "static/js/main.1d3aa968.js"
+  ]
+}

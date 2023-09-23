@@ -1,9 +1,0 @@
-.profile {
-    display:grid;
-    grid-template-rows: auto auto 1fr;
-    grid-gap: 1em;
-}
-
-.posts {
-    display: grid;
-}
