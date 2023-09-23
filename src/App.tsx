@@ -28,6 +28,7 @@ const App: FC = () => {
         dispatch(initializeApp())
     }, [])
 
+
     if (!initialized) {
         return <MyPreloader/>
     }
