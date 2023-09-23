@@ -6,7 +6,6 @@ import {useSelector} from "react-redux"
 import {getStatus} from "../../redux/selectors/chatSelectors"
 import {useAppDispatch} from "../../hooks/redux"
 import {sendChatMessage, startMessagesListening, stopMessagesListening} from "../../redux/actions/chatActions"
-import {WithAuthRedirect} from "../../hocs/withAuthRedirect"
 import {MyMessageForm} from "../Utils/MyMessageForm/MyMessageForm"
 
 /* IMPLEMENTED WITH THE CUSTOM FORM */
@@ -33,4 +32,4 @@ const Chat: FC = () => {
     </div>
 }
 
-export default WithAuthRedirect(Chat)
+export default Chat

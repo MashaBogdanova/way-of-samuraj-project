@@ -4,7 +4,6 @@ import Users from "./Users/Users"
 import Dialogs from "./Dialogs/Dialogs"
 import Chat from "./Chat/Chat"
 import {
-    CustomerServiceOutlined,
     SearchOutlined,
     SendOutlined,
     SettingOutlined,

@@ -11,7 +11,6 @@ import {MyMessageForm} from "../Utils/MyMessageForm/MyMessageForm"
 import {useAppDispatch} from "../../hooks/redux"
 import {PostType} from "../../types/types"
 import {getStatusThunk, getProfileThunk} from "../../redux/actions/profileActions"
-import {WithAuthRedirect} from "../../hocs/withAuthRedirect"
 
 /* IMPLEMENTED WITH THE CUSTOM FORM */
 
@@ -58,4 +57,4 @@ const Profile: FC = () => {
             </div>
 }
 
-export default WithAuthRedirect(Profile)
+export default Profile

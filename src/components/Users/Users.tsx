@@ -9,7 +9,6 @@ import {useNavigate, useSearchParams} from "react-router-dom"
 import {useAppDispatch, useAppSelector} from "../../hooks/redux"
 import {fetchUsers} from "../../redux/actions/usersActions"
 import {FilterType} from "../../redux/reducers/usersSlice"
-import {WithAuthRedirect} from "../../hocs/withAuthRedirect"
 
 const Users: FC = () => {
 
@@ -74,4 +73,4 @@ const Users: FC = () => {
     </div>
 }
 
-export default WithAuthRedirect(Users)
+export default Users
